@@ -10,26 +10,26 @@ body {background-color:#fff;margin-left: 0px;margin-top: 0px;margin-right: 0px;m
 #header{width:100%; height:120px; margin:0 auto;}
 #header_conteudo{max-width:1024px; height:120px; margin:0 auto;}
 #header_conteudo_topo{width:100%; height:120px; margin: 0px 0px 0px 0px;}
-#header_topo_logo{width:19%; margin: 15px 0px 0px 0px; float: left;}
-#header_topo_logo_img{max-width:185px; margin: 0px 0px 0px 0px; float: left;}
+#header_topo_logo{width:35%; margin: 25px 0px 0px 10px; float: left;}
+#header_topo_logo_img{width:100%; margin: 0px 0px 0px 0px; float: left;}
 #header_topo_logo_img img{width:100%; margin: 0px 0px 0px 0px; float: left;}
 #header_topo_menu{width:60%; margin: 50px 0px 0px 0px; float: right;}
 /* fim header */
-#bannertopo{width:100%; margin:0 auto; }
-#bannertopo_img{width:100%; margin:0 auto; }
-#bannertopo_img img{width:100%; margin:0 auto;}
-#bannertopo_conteudo{max-width:700px;  margin:0 auto; margin-top: -450px; position: relative;}
-#bannertopo_conteudo_bloco{width:100%; margin: 0px 0px 0px 0px; float: left;}
-#bannertopo_conteudo_texto{width:100%; margin: 0px 0px 0px 0px; float: left;}
-#bannertopo_conteudo_texto h1{width:100%; margin: 20px 0px 0px 0px; float: left; font-size: 40px; font-weight: bold; font-family: 'Roboto', sans-serif; text-align: center; color: #fff;}
-#bannertopo_conteudo_texto h2{width:100%; margin: 0px 0px 0px 0px; float: left; font-size: 20px; font-weight: bold; font-family: 'Roboto', sans-serif; text-align: center; color: #fff;}
-#bannertopo_conteudo_texto p{width:100%; margin: 20px 0px 0px 0px; float: left; font-size: 16px; font-family: 'Roboto', sans-serif; text-align: center; color: #fff;}
-#bannertopo_conteudo_btn{width:100%; margin: 30px 0px 0px 0px; float: left;}
-#bannertopo_conteudo_btn_bloco{width:320px; margin:0 auto;}
-#bannertopo_conteudo_btn_bloco h1{width:120px; margin: 10px 10px 10px 10px; float: left; background-color: #f8490c; font-size: 18px; font-weight: 400; font-family: 'Roboto', sans-serif; text-align: center; color: #fff; border-radius: 30px; border:#f8490c solid 1px; padding: 8px;}
+#bannertopo{width:100%; margin:0 auto; background-color: #fafafa;}
+#bannertopo_img{ display: none;}
+#bannertopo_img img{width:100%; margin:0 auto; }
+#bannertopo_conteudo{width:100%;  margin:0 auto; position: unset; background-color: #fafafa;}
+#bannertopo_conteudo_bloco{width:100%; margin: 0px 0px 0px 0px; float: left; background-color: #fafafa; }
+#bannertopo_conteudo_texto{width:100%; margin: 50px 0px 0px 0px; float: left;}
+#bannertopo_conteudo_texto h1{width:100%; margin: 20px 0px 0px 0px; float: left; font-size: 40px; font-weight: bold; font-family: 'Roboto', sans-serif; text-align: center; color: #252b42;}
+#bannertopo_conteudo_texto h2{width:100%; margin: 0px 0px 0px 0px; float: left; font-size: 20px; font-weight: bold; font-family: 'Roboto', sans-serif; text-align: center; color: #737373;}
+#bannertopo_conteudo_texto p{width:100%; margin: 20px 0px 0px 0px; float: left; font-size: 16px; font-family: 'Roboto', sans-serif; text-align: center; color: #737373;}
+#bannertopo_conteudo_btn{width:100%; margin: 30px 0px 50px 0px; float: left;}
+#bannertopo_conteudo_btn_bloco{width:220px; margin:0 auto;}
+#bannertopo_conteudo_btn_bloco h1{width:180px; margin: 10px 10px 10px 10px; float: left; background-color: #f8490c; font-size: 18px; font-weight: 400; font-family: 'Roboto', sans-serif; text-align: center; color: #fff; border-radius: 30px; border:#f8490c solid 1px; padding: 15px;}
 #bannertopo_conteudo_btn_bloco h1 a{text-decoration: none; color: #fff;}
-#bannertopo_conteudo_btn_bloco h2{width:120px; margin: 10px 10px 10px 10px; float: left; font-size: 18px; font-weight: 400; font-family: 'Roboto', sans-serif; text-align: center; color: #fff; border-radius: 30px; border:#fff solid 1px; padding: 8px;}
-#bannertopo_conteudo_btn_bloco h2 a{text-decoration: none; color: #fff;}
+#bannertopo_conteudo_btn_bloco h2{width:180px; margin: 10px 10px 10px 10px; float: left; font-size: 18px; font-weight: 400; font-family: 'Roboto', sans-serif; text-align: center; color: #f8490c; border-radius: 30px; border:#f8490c solid 1px; padding: 15px;}
+#bannertopo_conteudo_btn_bloco h2 a{text-decoration: none; color: #f8490c;}
 /* fim banner */
 #blocoapp{width:100%; margin:0 auto;}
 #blocoapp_conteudo{max-width:500px;  margin:0 auto;}
@@ -43,12 +43,12 @@ body {background-color:#fff;margin-left: 0px;margin-top: 0px;margin-right: 0px;m
 #blocomeio_um_conteudo_main_title{width:100%; margin: 60px 0px 60px 0px; float: left;}
 #blocomeio_um_conteudo_main_title h1{width:100%; margin: 0px 0px 0px 0px; font-size: 35px; font-weight: 700; font-family: 'Roboto', sans-serif; text-align: center; color: #333;}
 #blocomeio_um_conteudo_main_cont{width:100%; margin: 40px 0px 40px 0px; float: left;}
-#blocomeio_um_conteudo_main_cont_esq{width:28%; margin: 30px 0px 0px 0px; float: left;}
+#blocomeio_um_conteudo_main_cont_esq{width:320px; margin:0 auto; float: none;}
 #blocomeio_um_conteudo_main_cont_esq img{width:100%; margin: 0px 0px 0px 0px; float: left;}
-#blocomeio_um_conteudo_main_cont_dir{width:65%; margin: 30px 0px 0px 0px; float: right;}
-#blocomeio_um_conteudo_main_cont_dir h1{width:100%; margin: 10px 0px 0px 0px; float: left; font-size: 40px; font-weight: bold; font-family: 'Roboto', sans-serif; text-align: left; color: #252b42;}
-#blocomeio_um_conteudo_main_cont_dir h2{width:100%; margin: 100px 0px 0px 0px; float: left; font-size: 18px; font-weight: bold; font-family: 'Roboto', sans-serif; text-align: left; color: #fa4a0c;}
-#blocomeio_um_conteudo_main_cont_dir p{width:100%; margin: 10px 0px 0px 0px; float: left; font-size: 14px; font-family: 'Roboto', sans-serif; text-align: left; color: #737373;}
+#blocomeio_um_conteudo_main_cont_dir{width:90%; margin:0 auto; float: none; margin-top: 30px;}
+#blocomeio_um_conteudo_main_cont_dir h1{width:100%; margin: 10px 0px 0px 0px; float: left; font-size: 40px; font-weight: bold; font-family: 'Roboto', sans-serif; text-align: center; color: #252b42;}
+#blocomeio_um_conteudo_main_cont_dir h2{width:100%; margin: 100px 0px 0px 0px; float: left; font-size: 18px; font-weight: bold; font-family: 'Roboto', sans-serif; text-align: center; color: #fa4a0c;}
+#blocomeio_um_conteudo_main_cont_dir p{width:100%; margin: 10px 0px 0px 0px; float: left; font-size: 14px; font-family: 'Roboto', sans-serif; text-align: center; color: #737373;}
 /* fim bloco meio um */
 #blocomeio_dois{width:100%; margin:0 auto;}
 #blocomeio_dois_conteudo{max-width:900px; margin:0 auto;}
@@ -56,12 +56,12 @@ body {background-color:#fff;margin-left: 0px;margin-top: 0px;margin-right: 0px;m
 #blocomeio_dois_conteudo_main_title{width:100%; margin: 60px 0px 60px 0px; float: left;}
 #blocomeio_dois_conteudo_main_title h1{width:100%; margin: 0px 0px 0px 0px; font-size: 35px; font-weight: 700; font-family: 'Roboto', sans-serif; text-align: center; color: #333;}
 #blocomeio_dois_conteudo_main_cont{width:100%; margin: 40px 0px 40px 0px; float: left;}
-#blocomeio_dois_conteudo_main_cont_dir{width:28%; margin: 30px 0px 0px 0px; float: right;}
+#blocomeio_dois_conteudo_main_cont_dir{width:320px; margin:0 auto; float: none;}
 #blocomeio_dois_conteudo_main_cont_dir img{width:100%; margin: 0px 0px 0px 0px; float: left;}
-#blocomeio_dois_conteudo_main_cont_esq{width:65%; margin: 30px 0px 0px 0px; float: left;}
-#blocomeio_dois_conteudo_main_cont_esq h1{width:100%; margin: 10px 0px 0px 0px; float: left; font-size: 40px; font-weight: bold; font-family: 'Roboto', sans-serif; text-align: left; color: #252b42;}
-#blocomeio_dois_conteudo_main_cont_esq h2{width:100%; margin: 100px 0px 0px 0px; float: left; font-size: 18px; font-weight: bold; font-family: 'Roboto', sans-serif; text-align: left; color: #fa4a0c;}
-#blocomeio_dois_conteudo_main_cont_esq p{width:100%; margin: 10px 0px 0px 0px; float: left; font-size: 14px; font-family: 'Roboto', sans-serif; text-align: left; color: #737373;}
+#blocomeio_dois_conteudo_main_cont_esq{width:90%; margin:0 auto; float: none; margin-top: 30px;}
+#blocomeio_dois_conteudo_main_cont_esq h1{width:100%; margin: 10px 0px 0px 0px; float: left; font-size: 40px; font-weight: bold; font-family: 'Roboto', sans-serif; text-align: center; color: #252b42;}
+#blocomeio_dois_conteudo_main_cont_esq h2{width:100%; margin: 100px 0px 0px 0px; float: left; font-size: 18px; font-weight: bold; font-family: 'Roboto', sans-serif; text-align: center; color: #fa4a0c;}
+#blocomeio_dois_conteudo_main_cont_esq p{width:100%; margin: 10px 0px 0px 0px; float: left; font-size: 14px; font-family: 'Roboto', sans-serif; text-align: center; color: #737373;}
 /* fim bloco meio dois */
 #bannerroda{width:100%; margin:0 auto; }
 #bannerroda_img{width:100%; margin:0 auto; }
